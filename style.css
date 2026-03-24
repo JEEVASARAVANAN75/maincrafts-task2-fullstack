@@ -1,0 +1,128 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header */
+header {
+  background: #333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Hero */
+.hero {
+  background: lightblue;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* Features */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.box {
+  background: #ddd;
+  padding: 20px;
+  width: 30%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.box i {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+/* Content */
+.content {
+  padding: 30px;
+  text-align: center;
+}
+
+/* Form */
+form input,
+form textarea {
+  width: 80%;
+  padding: 10px;
+}
+
+form div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form i {
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #333;
+  color: white;
+  border: none;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* 🔥 RESPONSIVE DESIGN */
+
+/* Tablet */
+@media (max-width: 768px) {
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    width: 80%;
+    margin-bottom: 15px;
+  }
+
+  nav a {
+    display: block;
+    margin: 5px 0;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .hero {
+    padding: 40px 10px;
+  }
+
+  form input,
+  form textarea {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+}
